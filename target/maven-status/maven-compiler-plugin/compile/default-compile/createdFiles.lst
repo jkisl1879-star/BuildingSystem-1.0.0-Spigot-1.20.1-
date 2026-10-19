@@ -1,0 +1,10 @@
+rust\building\Ceiling.class
+rust\BuildingPlanPlugin.class
+rust\BuildingPlanPlugin$2.class
+rust\building\BuildingPlan.class
+rust\building\FoundationManager.class
+rust\BuildingPlanPlugin$1.class
+rust\building\FoundationManager$StructureTarget.class
+rust\building\Hammer.class
+rust\building\Foundation.class
+rust\building\Wall.class
