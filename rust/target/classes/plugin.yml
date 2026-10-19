@@ -1,0 +1,25 @@
+name: BuildingPlan
+version: 1.0.0
+main: rust.BuildingPlanPlugin
+api-version: '1.20'
+author: you
+description: Building Plan item plugin
+
+commands:
+  buildingplan:
+    description: Give the Building Plan item
+    usage: /buildingplan give [player]
+    aliases: [bp]
+    permission: buildingplan.give
+  hammer:
+    description: Give the Hammer item
+    usage: /hammer give [player]
+    permission: hammer.give
+
+permissions:
+  buildingplan.give:
+    description: Allows giving the Building Plan item
+    default: op
+  hammer.give:
+    description: Allows giving the Hammer item
+    default: op
